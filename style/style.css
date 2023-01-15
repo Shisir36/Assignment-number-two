@@ -1,0 +1,338 @@
+
+/* common styles */
+
+.describe{
+    font-size: 17px;
+    color: #727272;
+    font-weight: 400px;
+}
+
+/* header and banner section */
+.header{
+    background-color:rgba(255, 144, 14, 0.1);
+    width: 100%;
+    height: 100%;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    width: 302px;
+    height: 53px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 45px;
+    padding-left: 150px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    width: 477px;
+    height: 26px;
+    align-items: center;
+    padding-top: 35px;
+}
+nav li{
+   list-style: none;
+   font-weight: 500;
+   font-size: 18px; 
+}
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+   
+}
+.banner-info{
+     text-align: center;
+     padding-left: 480px;
+     padding-right: 480px;
+  }
+.banner-title{
+    font-size: 60px;
+}
+.banner-btn{
+    width: 170px;
+     height: 60px;
+    background-color:coral;
+    border-radius: 7px;
+    border: none;
+    color: white;
+}
+/*------------------------------
+ This is Features section style
+ -------------------------------*/
+
+ .team-members-pictures{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+    padding-top: 100px;
+} 
+.features-container{
+    display: flex;
+    justify-content: space-evenly;
+     align-items: center;
+}
+.features-details{
+    width: 500px;
+    height: 304px;
+}
+.features-list-title{
+    font-size: 45px;
+}
+.features-decription{
+    font-size: 15px;
+    color: #727272;
+    padding-bottom: 20px;
+}
+.features-btn{
+    width: 170px;
+    height: 60px;
+    background-color:coral;
+    border-radius: 7px;
+    border: none;
+    color: white;  
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+Features provide section style 
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.features-provide-container{
+    display: flex;
+     justify-content: space-around;
+     margin-top: 50px;
+}
+     .provide-features-details{
+        width: 500px;
+        height: 700px;
+    } 
+    .features-provide-title{
+        font-size: 45px;
+        border-left: 6px solid coral;
+    
+    }
+    .provide-item{
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: white;
+        padding-left: 20px;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+        margin-bottom: 20px;
+    }
+    .exprience-age{
+       position: absolute;
+       margin-left: 750px;
+        margin-top: -70px; 
+       background-color: coral;
+       border-radius: 7px;
+       width: 150px;
+       padding: 50px;
+       text-align: center;
+       color: white;
+    }
+    /*___________________
+     fact section styles 
+     _____________________*/
+
+   .facts-container{
+    margin-top: 100px;
+   }
+
+   .container{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+   }
+   .container-type{
+    border: 1px solid #FF900E;
+    border-radius: 7px;
+    padding: 30px; 
+    width: 150px;
+   }
+   .container-type:hover{
+    transform:scale(.75) rotate(20deg);
+    background-color: grey;
+    transition: 2s;
+   }
+   .fact-describe{
+       padding-left: 120px;
+       padding-right: 1150px;
+       padding-top: 20px;
+   }
+   .facts-title{
+    font-size: 45px;
+   }
+
+   .container h2{
+    font-size: 40px;
+    margin-top: 0;
+    height: 20px;
+   }
+    .container img{
+    width: 30px;
+    padding-top: 30px;
+   }
+
+
+
+   /*//////////////////////
+    sponspors section style
+    //////////////////////// */
+
+   .sponsors-container{
+    margin-top: 100px;
+   }
+
+   .sponsors-details{
+    text-align: center;
+   }
+   .sponsors-title{
+    font-size: 45px;
+   }
+   .sponsors-images{
+     display: flex;
+     gap: 100px;
+     justify-content: center;
+     padding-top: 50px;
+     filter: grayscale(100%);
+     -webkit-filter: grayscale(100%);
+   }
+   /*<<<<<<<<<<<<<<<<<<<<<<<<<
+    Achievement section styles 
+    <<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+   .achievement-container{
+     display: flex;
+     justify-content: center;
+     gap: 300px;
+     margin-top: 150px;
+   }
+   .container-image img{
+    width: 500px;
+   }
+   .achievement-title{
+    font-size: 50px;
+   }
+   .achievement-details{
+    text-align: center;
+   }
+   .details-btn{
+    background-color: crimson;
+    padding: 20px 40px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+   }
+   /*>>>>>>>>>>>>>>>>>>>>>>
+    Footer & end part style
+   >>>>>>>>>>>>>>>>>>>>>>> */
+   .End-part{
+    background-color: #FFF4E7;
+    margin-top: 100px;
+   }
+   .describe-last-part{
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-size: 25px;
+    color: #727272;
+   }
+
+   /************************
+    Responsive for Mobile 
+   **************************/
+   @media screen and (max-width:576px) {
+    /* heaer nav section  */
+             nav{
+                flex-direction: column;
+             }
+             .nav-title{
+                padding-left:50px;
+             }
+             nav ul{
+                flex-direction: column;
+                height: auto;
+                width: auto;
+                align-items: flex-start;
+             }
+
+       /* header banner section */
+       .banner-image img{
+        width: 100%;
+       }
+       .banner-info {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+       /* Features section */
+            .features-container{
+                flex-direction: column;
+            }
+     .team-members-pictures{
+        grid-template-columns: repeat(1,1fr);
+     }
+     .features-details{
+        width: 100%;
+     }
+     /* Features providing section */
+
+     .features-provide-container{
+        flex-direction: column;
+     }
+     .provide-features-details{
+        width: 100%;
+        height: 100%;
+     }
+     .architect img{
+        width: 100%;
+     }
+     .exprience-age{
+        position: absolute;
+         margin-left: 85px;
+       background-color: coral;
+       border-radius: 7px;
+       width: auto;
+       padding: 20px;
+       text-align: center;
+        color: white;
+        margin-top: 20px;
+     }
+     /* fact section  */
+     .facts-container {
+        margin-top: 100px;
+        width: 100%;
+    }
+    .fact-describe {
+        padding-top: 20px;
+        padding-left: 2px;
+        padding-right: 2px;
+       }
+     .container{
+        flex-direction: column;
+        gap: 20px;
+     }
+     /* sponsors section  */
+
+     .sponsors-images{
+     flex-direction: column;
+     align-items: center;
+     }
+     /* achievement section  */
+     .achievement-container{
+        flex-direction: column;
+        gap: 100px;
+     }
+     .container-image img{
+        width: 100%;
+     }
+
+}
